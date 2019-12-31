@@ -1,5 +1,5 @@
 <div class="card-columns m-5">
-        <div *ngFor="let item of items" class="card animated fadeIn">
+        <div (click)="lookArtist(item)" *ngFor="let item of items" class="puntero card animated fadeIn">
           <img [src]="item.images | noimage" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">
