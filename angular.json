@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "spotyapp"
+    }
+  },
+  "defaultProject": "spotyapp",
+  "cli": {
+    "analytics": false
+  }
 }
